@@ -94,10 +94,9 @@ const Container = styled.div`
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, .08);
   left: 0;
-  padding: 0 24px;
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 100;
 `
 
@@ -107,7 +106,7 @@ const Content = styled.div`
   margin: 0 auto;
   min-height: 100%;
   max-width: 1128px; 
-  padding-top: 5px;
+  padding: 5px 13px 0 13px;
 `
 
 const Logo = styled.span`
@@ -117,10 +116,10 @@ const Logo = styled.span`
 
 const Search = styled.div`
   opacity: 1;
-  flex-grow: 1;
   position:relative;
   &  > div {
-    max-width: 280px;
+    max-width: 280px; 
+  }
     input {
       box-shadow: none;
       background-color: #eef3f8;
